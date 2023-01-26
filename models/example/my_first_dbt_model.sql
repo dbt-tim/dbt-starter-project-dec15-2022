@@ -5,6 +5,16 @@
     This will override configurations stated in dbt_project.yml
 
     Try changing "table" to "view" below
+
+
+                      
+  ____   ____   ____  
+ /  _ \ /    \_/ __ \ 
+(  <_> )   |  \  ___/ 
+ \____/|___|  /\___  >
+            \/     \/ 
+
+
 */
 
 {{ config(materialized='table') }}
